@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url(img/Sherlock\ Wallpaper\ Plain\ Small.jpg);
+}
+
+.container{
+    margin:auto;
+    width:800px;
+    background-color: rgb(192, 187, 180);
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.header ul li {
+    display: inline-block;
+    padding-top: 20px;
+    margin-right: 10px;
+   
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    padding: 8px;
+}
+
+a:hover{
+    background-color: rgb(122, 122, 122);
+}
+
+a:active{
+    background-color: rgb(122, 122, 122);
+    color: white;
+}
+
+.header{
+    padding: 10px;
+}
+
+.hero img{
+    width:798px;
+}
+
+.madeby{
+    font-style: italic;
+    font-size: smaller;
+}
+
+.content{
+    margin:20px 10px 50px 10px;
+}
+
+.desc1,.desc2,.desc3{
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.footer{
+    background-color:black;
+    height: 50px;
+}
+
+.copyright{
+    color:white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: smaller;
+}
